@@ -20,9 +20,9 @@ Concept of machine learning. [Introduction to Machine Learning.md](Introduction%
 
 - **Data Source**: *MySQL database named "forum_data"* <p>Notice: Some posts have null value or incomplete pattern in the column named "content". <p> We need below columns:
 
+        
+    id, s_id, s_area_id, title, content_type, author, page_url, post_time, content
     
-> id, s_id, s_area_id, title, content_type, author, page_url, post_time, content
-
 
 - - -
 ### Model Building and Training
